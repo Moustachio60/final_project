@@ -1,0 +1,112 @@
+
+.bck-img{
+    background-image: 
+    linear-gradient(to bottom, rgba(222, 225, 240, 0.242), #02020200),
+    url(/img/burger_photo_main.jpg);
+   /*
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  */
+  
+  min-height: 500px;
+  
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* position of the navbar */
+  position: relative;
+
+  
+}
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin-left: 0;
+  
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(11, 11, 12, 0.17);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  float: right;
+  
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Title*/
+.title {
+  text-align: center;
+  font-size: 75px;
+  text-decoration: underline;
+  
+  
+
+}
+
+
+.a{
+  font-family: 'Lobster', cursive;
+}
+.b{
+  font-size: xx-large;
+}
+p{
+  font-size: large;
+  padding: 12px;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+}
+
+
+
+
+    
+    
+    
+
+  
