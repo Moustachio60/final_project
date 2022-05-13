@@ -1,7 +1,7 @@
 .bck-img{
     background-image: 
     linear-gradient(to bottom, rgba(23, 27, 50, 0.255), #0202026e),
-    url(/img/heroimage.jpg);
+    url(../img/heroimage.jpg);
    /*
   background-repeat: no-repeat;
   background-attachment: fixed;

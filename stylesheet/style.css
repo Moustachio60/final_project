@@ -2,7 +2,7 @@
 .bck-img{
     background-image: 
     linear-gradient(to bottom, rgba(222, 225, 240, 0.242), #02020200),
-    url(/img/burger_photo_main.jpg);
+    url(../img/burger_photo_main.jpg);
    /*
   background-repeat: no-repeat;
   background-attachment: fixed;
