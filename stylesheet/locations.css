@@ -107,6 +107,7 @@ p{
   border: solid rgba(216, 216, 233, 0.17);
   color: #0e0a0a;
   box-sizing: border-box;
+  
 }
 .bttmclm1{
   float: left;
@@ -137,4 +138,5 @@ p{
 }
 .map{
     margin-top: 100px;
+    float: left;
 }

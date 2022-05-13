@@ -1,0 +1,86 @@
+.bck-img{
+    background-image: 
+    linear-gradient(to bottom, rgba(23, 27, 50, 0.255), #0202026e),
+    url(/img/heroimage.jpg);
+   /*
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  */
+  
+  min-height: 250px;
+  
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* position of the navbar */
+  position: relative;
+
+  
+}
+.herotext{
+  text-align: center;
+  position: absolute;
+  color: white;
+  left: 38%;
+  top: 25%;
+  font-family: 'Playfair Display', serif;
+  font-size: 75px;
+}
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin-left: 0;
+  
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgba(11, 11, 12, 0.808);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  float: right;
+  
+  
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/heroimage.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.video{
+    margin: 100px;
+}
